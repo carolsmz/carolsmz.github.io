@@ -14,8 +14,7 @@
         <div class="logo">Caroline Santos Messias</div>
         <div>
             <ul class="nav-links">
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#educacao">Educação</a></li>     
+                <li><a href="#sobre">Sobre mim</a></li>  
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
         </div>
@@ -69,21 +68,33 @@
         
         <div class="section-container">
             <div class="section_pic-container">
-                <img src="itens/Design.gif" alt="profile picture" class="sobre-pic"/>
+                <img src="itens/Design.gif" 
+                alt="profile picture" 
+                class="sobre-pic"
+                />
             </div>
 
             <div class="sobre-details-container">
                 <div class="sobre-containers">
                     <div class="details-container">
-                        <img src="itens/experience.png" alt="experience icon" class="icon"/>
+
+                        <img src="itens/experience.png" 
+                        alt="experience icon" 
+                        class="icon"
+                        />
                         <h3>Experiência</h3>
-                        <p>Operadora de Sup. Técnico em TI <br/>Petrobras 2022-2024</p>
+                        <p>Operadora de Sup. Técnico em TI <br/>Petrobras 2022-2024
+                        </p>
                     </div>
 
                     <div class="details-container">
-                        <img src="itens/education.png" alt="education icon" class="icon"/>
+                        <img src="itens/education.png" 
+                        alt="education icon" 
+                        class="icon"
+                        />
                         <h3>Educação</h3>
-                        <p>Cursando Bach. Engenharia de Computação<br/>UNIVESP</p>
+                        <p>Cursando Bach. Engenharia de Computação<br/>UNIVESP
+                        </p>
                     </div>
                 </div>
 
@@ -94,9 +105,87 @@
                 </div>
             </div>
         </div>
-        <img src="itens/arrow.png" alt="arrow icon" onclick="location.href='#educacao'"
+
+        <img src="itens/arrow.png" 
+        alt="arrow icon" 
+        class="icon arrow"   
+        onclick="location.href='#educacao'">
+
     </section>
-    
+    <section id="projetos">
+
+        <p class="section_text_p1">Browse my recent</p>
+        <h1 class="title">Projetos</h1>
+        <div class="experiencia-details-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <iframe title="Report Section" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiN2RjNzJiOTctMzRmMC00MjMwLTk1NDQtOGYwZjExZDlkMjc5IiwidCI6ImIxMDUxYzRiLTNiOTQtNDFhYi05NDQxLWU3M2E3MjM0MmZkZCJ9" frameborder="0" allowFullScreen="true" class="project-dash"></iframe>
+                </div>
+                <h2 class="experiencia-sub-title projeto-title">Dashboard Power BI + Figma</h2>
+                <p>Projeto (SENAI-Petrobras) feito para fins de análise de dados de ativos, por meio de informações advindas do power apps.</p>
+                <div class="btn-container">
+                    <button class=""btn btn-color-2 projeto-btn"
+                    onclick="location.href='github'">
+                    Github
+                    </button>
+                    <button class=""btn btn-color-2 projeto-btn"
+                    onclick="location.href='github'">
+                    Live Demo
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <video
+                        controls
+                        width="500"
+                        height="500"
+                        autoplay
+                        loop
+                        muted
+                        poster="itens/posterproj2.png">
+                        <source src="itens/project2.mp4" type="video/mp4" />
+                </div>
+                <h2 class="experiencia-sub-title projeto-title">Projeto de Redes</h2>
+                <p>Desafio da CISCO de estrutura de redes através do Packet Tracer</p>
+                <div class="btn-container">
+                    <button class=""btn btn-color-2 projeto-btn"
+                    onclick="location.href='github'">
+                    Github
+                    </button>
+                    <button class=""btn btn-color-2 projeto-btn"
+                    onclick="location.href='github'">
+                    Live Demo
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="details-container color-container">
+                <div class="article-container">
+                    
+                
+                </div>
+                <Site class="experiencia-sub-title projeto-title">Site de Receita de Bolo de Chocolate</h2>
+                <p>Site feito com propósito de estudo das tags básicas em HMTL/CSS e responsividade</p>
+                <div class="btn-container">
+                    <button class=""btn btn-color-2 projeto-btn"
+                    onclick="location.href='github'">
+                    Github
+                    </button>
+                    <button class=""btn btn-color-2 projeto-btn"
+                    onclick="location.href='github'">
+                    Live Demo
+                    </button>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
     <script src="script.js"></script>
 
 

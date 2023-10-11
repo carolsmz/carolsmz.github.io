@@ -3,7 +3,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 
-
 *{
     margin: 0;
     padding: 0;
@@ -252,3 +251,62 @@ section{
 .btn-container{
     gap: 1rem;
 }
+
+/*SOBRE*/
+
+#sobre {
+    position: relative;
+}
+
+.sobre-containers{
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sobre-details-container{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sobre-containers,
+.sobre-details-container{
+    display: flex;
+}
+
+.sobre-pic{
+    border-radius: 2rem;
+}
+
+.arrow{
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container{
+    padding: 1.0rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    text-align: center;
+}
+
+.section-container{
+    gap: 4rem;
+    height: 80%;
+}
+
+.section_pic-container{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+
+
+/*PROJETOS*/
+
